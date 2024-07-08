@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+
+queries.sql
+
+# Optional npm cache directory
+.npm

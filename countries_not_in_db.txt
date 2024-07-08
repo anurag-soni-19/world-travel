@@ -1,0 +1,72 @@
+AX: Åland Islands
+AS: American Samoa
+AD: Andorra
+AI: Anguilla
+AQ: Antarctica
+AG: Antigua and Barbuda
+AW: Aruba
+ST: São Tomé and Príncipe
+BH: Bahrain
+BB: Barbados
+BV: Bouvet Island
+VG: British Virgin Islands
+IO: British Indian Ocean Territory
+CV: Cape Verde
+KY: Cayman Islands
+HK: Hong Kong
+MO: Macao
+CX: Christmas Island
+CC: Cocos (Keeling) Islands
+KM: Comoros
+CK: Cook Islands
+DM: Dominica
+FO: Faroe Islands
+PF: French Polynesia
+GI: Gibraltar
+GD: Grenada
+GP: Guadeloupe
+GU: Guam
+GG: Guernsey
+HM: Heard Island and McDonald Islands
+VA: Vatican City
+FM: Federated States of Micronesia
+RE: Réunion
+IM: Isle of Man
+JE: Jersey
+KI: Kiribati
+LI: Liechtenstein
+MV: Maldives
+BM: Bermuda
+MT: Malta
+MH: Marshall Islands
+MQ: Martinique
+MU: Mauritius
+YT: Mayotte
+MC: Monaco
+MS: Montserrat
+NR: Nauru
+AN: Netherlands Antilles (dissolved in 2010)
+NU: Niue
+NF: Norfolk Island
+MP: Northern Mariana Islands
+PW: Palau
+PN: Pitcairn Islands
+BL: Saint Barthélemy
+SH: Saint Helena, Ascension and Tristan da Cunha
+KN: Saint Kitts and Nevis
+LC: Saint Lucia
+MF: Saint Martin (French part)
+PM: Saint Pierre and Miquelon
+VC: Saint Vincent and the Grenadines
+WS: Samoa
+SM: San Marino
+SC: Seychelles
+SG: Singapore
+GS: South Georgia and the South Sandwich Islands
+TK: Tokelau
+TO: Tonga
+TC: Turks and Caicos Islands
+TV: Tuvalu
+UM: United States Minor Outlying Islands
+VI: United States Virgin Islands
+WF: Wallis and Futuna
