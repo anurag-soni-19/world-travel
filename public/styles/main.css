@@ -15,7 +15,7 @@ body {
   height: 100%;
 }
 body {
-  background: #21252b;
+  background: #000000;
   font-family: "Roboto", sans-serif;
 }
 
@@ -47,9 +47,9 @@ body {
   margin-left: 1rem;
 }
 .ag-canvas_svg path {
-  fill: #383d46;
+  fill: #353b42;
   fill-opacity: 1;
-  stroke: #21252b;
+  stroke: #000000;
   stroke-opacity: 1;
   stroke-width: 0.5;
   transition: 0.5s;

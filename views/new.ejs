@@ -12,12 +12,11 @@
 <body>
   <h1>Add a Family Member</h1>
   <form action="/new" method="post">
-    <p>What's your name?</p>
-    <input type="text" name="name" required>
+    <input type="text" name="name" placeholder="<%= locals.error ? error :  'Enter your name!'%>" required>
 
     <p>Pick a color:</p>
     <div>
-      <input type="radio" name="color" id="red" value="red" />
+      <input type="radio" name="color" id="red" value="red" checked/>
       <label for="red"><span class="red"></span></label>
   
       <input type="radio" name="color" id="green" value="green" />

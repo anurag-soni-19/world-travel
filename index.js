@@ -153,10 +153,13 @@ app.post("/new", async (req, res) => {
       [name, color]
     );
     currentUserId =  result.rows[0].id;
+    res.redirect("/");
   } catch (err) {
     console.log(err);
+    res.render("new.ejs", {
+      error: "User already present, try a different name!",
+    });
   }
-  res.redirect("/");
 });
 
 app.post("/removeUser", async (req, res) => {
