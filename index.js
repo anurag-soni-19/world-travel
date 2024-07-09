@@ -22,7 +22,10 @@ let users = [];
 
 async function nextUser() {
   const result = await db.query("SELECT id FROM users ORDER BY id ASC");
-  return result.rows[0].id;
+  if(result.rows[0]){
+    return result.rows[0].id;
+  }
+  return -1;
 }
 let currentUserId = await nextUser();
 
@@ -45,14 +48,19 @@ async function getCurrentUser() {
 }
 
 app.get("/", async (req, res) => {
-  const countries = await checkVisisted();
-  const currentUser = await getCurrentUser();
-  res.render("index.ejs", {
-    countries: countries,
-    total: countries.length,
-    users: users,
-    color: currentUser.color,
-  });
+  if(currentUserId == -1){
+    res.render("new.ejs");
+  }
+  else{
+    const countries = await checkVisisted();
+    const currentUser = await getCurrentUser();
+    res.render("index.ejs", {
+      countries: countries,
+      total: countries.length,
+      users: users,
+      color: currentUser.color,
+    });
+  }
 });
 app.post("/add", async (req, res) => {
   const input = req.body["country"];
