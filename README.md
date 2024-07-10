@@ -14,3 +14,6 @@ To start the repo on local system:
 3. run nodemon index.js to start the application on the local host: 3000.
 
 Enjoy and track your travels with TRAVEL TRACKER.
+
+
+![alt text](https://github.com/anurag-soni-19/world-travel/blob/master/public/styles/Screenshot%202024-07-09%20181926.png)
